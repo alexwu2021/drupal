@@ -14,7 +14,7 @@ Installation is as easy as running the following three commands. The first uses 
 ```shell
 $ composer install
 $ task site-install
-$ task uli
+
 ```
 
 #### Environmental variables
@@ -28,8 +28,8 @@ My .valet-env.php file looks as follows.
 ```php
 return [
   '*' => [
-    'DB_USERNAME' => 'drupal',
-    'DB_PASSWORD' => 'drupal',
+    'DB_USERNAME' => 'db',
+    'DB_PASSWORD' => 'db',
     'DB_HOST'=>'localhost',
   ]
 ];

@@ -3,7 +3,7 @@ vars:
   DRUSH: ./vendor/bin/drush
 env:
   DB_HOST: 'localhost'
-  DB_USERNAME: 'test_user_1'
+  DB_USERNAME: 'alex'
   DB_PASSWORD: 'Test_user_1_p'
 
 

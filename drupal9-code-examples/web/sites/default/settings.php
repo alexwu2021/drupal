@@ -800,13 +800,13 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  */
 
 $databases['default']['default'] = array (
-  'database' => 'drupal_db',
+  'database' => 'db',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
   'host' => getenv('DB_HOST'),
-  'username' => 'test_user_1',
-  'password' => 'Test_user_1_p',
+  'username' => 'db',
+  'password' => 'db',
   'charset' => 'utf8mb4',
   'collation' => 'utf8mb4_danish_ci',
 );
