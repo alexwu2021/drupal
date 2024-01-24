@@ -15,11 +15,8 @@
         }
     ],
     "require": {
-
-        "symfony/console":"4.4.49",
-        "symfony/string":"6.4.2",
-
         "composer/installers": "^v1.12.0",
+        "drupal/bootstrap_sass": "^5.0",
         "drupal/core-composer-scaffold": "^9.5.11",
         "drupal/core-project-message": "^9.5.11",
         "drupal/core-recommended": "^9.5.11",
@@ -27,7 +24,9 @@
         "laminas/laminas-diactoros": "@stable",
         "laminas/laminas-escaper": "@stable",
         "laminas/laminas-feed": "@stable",
-        "longwave/laminas-diactoros": "@stable"
+        "longwave/laminas-diactoros": "@stable",
+        "symfony/console": "4.4.49",
+        "symfony/string": "6.4.2"
     },
     "conflict": {
         "drupal/drupal": "*"

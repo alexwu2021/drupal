@@ -80,17 +80,5 @@ options:
 uri: "http://localhost:8888/"
 
 
-
-
-# run the following commands:
-composer install
-sh server-setup.sh
-./vendor/bin/drush status
-
-task site-install
-task uli
-
-
-I have xdebug installed and have confirmed it's ready for use.
-I've defined a PHP Server in my phpstorm settings that use my project accordingly
-
+# the theme configuration, by following this tutorial:
+https://ostraining.com/blog/drupal/how-to-use-bootstrap-5-and-sass-in-drupal-9/
