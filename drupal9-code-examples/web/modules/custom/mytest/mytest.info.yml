@@ -1,0 +1,9 @@
+name: 'mytest'
+type: module
+description: 'test dynamic data'
+core_version_requirement: 9.x
+package: 'D9-Code-Examples'
+version: 1.0.0
+#dependencies:
+#  - views_bulk_operations
+

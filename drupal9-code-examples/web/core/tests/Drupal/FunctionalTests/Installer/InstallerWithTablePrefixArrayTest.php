@@ -24,7 +24,7 @@ class InstallerWithTablePrefixArrayTest extends InstallerTestBase {
     // Add a database with a multi-entry 'prefix' array.
     $settings['databases']['test_fu']['default'] = (object) [
       'value' => [
-        'database' => 'db',
+        'database' => 'drupal_db',
         'prefix' => ['default' => 'foo', 'other_table' => 'qux'],
         'host' => 'localhost',
         'namespace' => 'Drupal\Core\Database\Driver\sqlite',

@@ -1,0 +1,7 @@
+mytest:
+  path: '/mytest'
+  defaults:
+    _controller: 'Drupal\mytest\Controller\MyTestController::hello'
+    _title: 'Hello, World!'
+  requirements:
+    _permission: 'access content'

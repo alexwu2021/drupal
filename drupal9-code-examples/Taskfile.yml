@@ -1,12 +1,12 @@
 version: '3'
 vars:
   DRUSH: ./vendor/bin/drush
+
 env:
   DB_HOST: 'localhost'
-  DB_USERNAME: 'alex'
-  DB_PASSWORD: 'Test_user_1_p'
-
-
+  DB_USERNAME: 'db'
+  DB_PASSWORD: 'db'
+#  DB_DATABASE: 'db'
 
 
 tasks:
